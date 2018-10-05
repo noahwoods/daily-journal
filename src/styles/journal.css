@@ -1,4 +1,24 @@
+body{
+  
+}
+
 fieldset{
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  font-family: 'Abel', sans-serif;
+}
+
+h1{
+  display: flex;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  justify-content: center;
+}
+
+select{
+  font-family: 'Abel', sans-serif;
+}
+
+button{
+  font-family: 'Abel', sans-serif;
 }
