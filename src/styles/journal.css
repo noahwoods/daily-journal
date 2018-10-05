@@ -17,9 +17,22 @@ h1{
 
 select{
   font-family: 'Abel', sans-serif;
+  font-size: 16px;
+  /* background-color: skyblue; */
 }
 
 button{
   font-family: 'Abel', sans-serif;
-  color: skyblue
+  background-color: skyblue;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+
+textarea{
+  border-radius: 8px;
+}
+
+input{
+  border-radius: 8px;
 }

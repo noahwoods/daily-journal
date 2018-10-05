@@ -11,18 +11,30 @@
 <body>
   <h2>Daily Journal</h2>
     <form action="">
+      
+      <!-- box for date -->
+      
       <fieldset>
         <label for="journalDate">Date of Entry</label>
         <input type="date" name="journalDate" id="journalDate">
     </fieldset>
+
+    <!-- text box for concepts covered -->
+
     <fieldset>
         <label for="conceptsCovered">Concepts Covered</label>
         <input type="text" name="conceptsCovered" id="conceptsCovered">
     </fieldset>
+    
+    <!-- text box for journal entry -->
+    
     <fieldset>
       <label for="journalEntry">Journal Entry</label>
       <textarea name="journalEntry" id="journalEntry" cols="40px" rows="5px"></textarea>
     </fieldset>
+
+    <!-- dropdown menu for mood selection -->
+
     <fieldset>
       <label for="mood">Mood for the Day</label>
       <select>
@@ -31,6 +43,9 @@
         <option value="fine">Fine</option>
         </select>
     </fieldset>
+
+<!-- button to submit entries -->
+
     <fieldset>
       <button type="button" onClick="alert"('Entry Recorded')">Record Journal Entry</button>
     </fieldset>
