@@ -1,4 +1,5 @@
-body{
+form{
+  border-radius: 8px;
   
 }
 
@@ -7,9 +8,10 @@ fieldset{
   flex-direction: column;
   flex-wrap: wrap;
   font-family: 'Abel', sans-serif;
+  border-radius: 8px;
 }
 
-h1{
+h2{
   display: flex;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   justify-content: center;
@@ -17,8 +19,36 @@ h1{
 
 select{
   font-family: 'Abel', sans-serif;
+  font-size: 18px;
+  background-color: transparent;
 }
 
 button{
   font-family: 'Abel', sans-serif;
+  background-color: skyblue;
+  font-size: 16px;
+  border-radius: 8px;
 }
+
+
+textarea{
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+input{
+  border-radius: 8px;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+ body{
+  /* background-image: url(https://helpx.adobe.com/content/dam/help/en/animate/how-to/create-2d-animation/_jcr_content/main-pars/image/create-2d-animation_1408x792.jpg); */
+  background-position: right;
+  background-position: top right;
+  /* background-repeat: no-repeat; */
+  /* background-size: auto; */
+}
+
+
+
